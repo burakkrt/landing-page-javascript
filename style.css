@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+:root {
+  --color-dark: #222831;
+  --color-white: #EEEEEE;
+  --color-red: #DF2E38;
+  --color-turquoise: #00ADB5;
+  --color-blue: #3F72AF;
+  --color-yellow: #FCE38A;
+  --color-pink: #FC5185;
+  --color-brown: #B4846C;
+  --color-green: #539165;
+  --color-hardal: #EBB02D;
+  --color-darkblue: #3F497F;
+  --color-neongreen: #16FF00;
+  --color-soft: #FFFFE8;
+}
