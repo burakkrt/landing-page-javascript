@@ -134,6 +134,29 @@ header .play-stop-btn .btn-slider.active {
   background-color: var(--color-red);
 }
 
+.preloader-gif{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  visibility: visible;
+  background-color: white;
+}
+
+.preloader-gif.hidden{
+  visibility: hidden!important;
+  z-index: -9999;
+}
+
+.preloader-gif img{
+  max-width: 450px;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 50%
